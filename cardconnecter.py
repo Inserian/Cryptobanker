@@ -24,8 +24,8 @@ KEY_FILE = 'encryption.key'
 DATABASE_URI = 'postgresql+psycopg2://user:password@localhost/banking_db?sslmode=require'
 
 # Flask App Configuration
-APP_HOST = '0.0.0.0'
-APP_PORT = 5000
+APP_HOST = '0.0.0.0' # Change to allowed source
+APP_PORT = 5000 # Ensure connection and traffic is secure and allowed (can be changed) 
 SSL_CERT = '/path/to/cert.pem'
 SSL_KEY = '/path/to/key.pem'
 
